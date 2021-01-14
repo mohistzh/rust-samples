@@ -24,12 +24,3 @@ pub fn guess() {
         }
     }
 }
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn guess_test() {
-        guess()
-    }
-}
